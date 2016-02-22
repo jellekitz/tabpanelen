@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    background-color: azure;
+}
+
+.buttons{
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.knoppen li{
+    list-style-type: none;
+    float: left
+}
+
+.knoppen li.actief{
+    background-color: orange;
+}
+
+.paneel {
+    /*display: none;*/
+}
+
+.paneel.actief {
+    display: block !important;
+}
+
+.paneel img {
+    max-width: 100%;
+}
+
+
+
